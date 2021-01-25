@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+/**********************
+  * 공통 CSS
+  * Last Updated: 2017-07-24
+***********************/
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    border:0;
+    outline:0;
+    font-size:100%;
+}
+
+html, body {
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: black;
+}
+
+body {
+    position: relative;
+    font-size: 14px;
+    font-family: 'Noto Sans KR',sans-serif,'나눔고딕',NanumGothic,'돋움',Dotum,'굴림',Gulim,Helvetica,sans-serif!important;
+    color: #333333;
+    line-height:1.3em;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,content { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+    color: inherit;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+    width: 100%;
+    text-align: center;
+}
+
+table th, table td {
+    padding: 3px 1px;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+}
+
+input[type="text"], select {
+    vertical-align:middle;
+    width: 100%;
+    height: 25px;
+    padding-left: 5px;
+}
+
+input[type="text"].type01{    /*2020.08.25 추가*/
+    vertical-align:middle;
+    width: 10%;
+    height: 25px;
+    padding-left: 5px;
+    margin-left: 3px;
+}
+
+
+*:focus { outline: none; }
+

@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/******************************
+  * 테이블 관련 CSS
+  * Last Updated: 2017-07-24
+*******************************/
+
+
+.tb_01 caption, .tb_01 label, th label {
+    display: none;
+}
+.tb_01 thead tr {
+    border-bottom: 1px solid #f7f7f7;
+}
+.tb_01 thead th, .tb_01 tbody td {
+    height: 26px;
+}
+.tb_01 thead th {
+    background-color: #dcdcdc;
+    font-weight: normal;
+    border-right: 1px solid #f7f7f7;
+}
+.tb_01 tbody tr {
+    border-bottom: 1px solid #dcdcdc;
+}
+.tb_01 tbody td {
+    background-color: #f7f7f7;
+    border-right: 1px solid #dcdcdc;
+}
+.tb_01 tbody td:last-child {
+    border-right: 0;
+}
